@@ -25,7 +25,8 @@ Step 2:
 To use SpringBoot we need to add 2 things into the pom.xml file
 
 First, we need to add spring-boot-starter-parent as the parent of our own project. 
- <parent>
+
+    <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>1.5.7.RELEASE</version>
